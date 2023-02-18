@@ -1,0 +1,99 @@
+/* -------
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+img {
+  max-width: 100%;
+  display: flex;
+}
+
+svg {
+  vertical-align: middle;
+}
+
+.container {
+  margin: 1rem;
+  width: 80%;
+  max-width: 1320px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.nav-enlaces {
+  display: inline-block;
+  background: salmon;
+  color: beige;
+  padding: 10px 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.img-box {
+  text-align: center;
+  width: 40%;
+}
+
+.listado {
+  margin: 1rem;
+  width: 80%;
+  max-width: 1320px;
+}
+
+.footerbackgroundcolor {
+  background-color: #ff7b00;
+}
+
+.footerbackgroundcolor2 {
+  background-color: #ff4d00eb;
+}
+
+/* esto es el boton de enviar del form para pedir info de idioma con pseudoelemento con efecto*/
+
+.buttonsend {
+  border: 0.125rem solid #ff6347cc;
+  background: none;
+  color: #ff6347cc;
+  cursor: pointer;
+  font-size: 0.938rem;
+  text-transform: uppercase;
+  padding: 1rem 2rem;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.5s;
+}
+
+.buttonsend:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0%;
+  width: 100%;
+  background-color: #ff6347cc;
+  z-index: -1;
+  border-radius: 0 0 50% 50%;
+  transition: all 0.5s;
+}
+
+.buttonsend:hover:before {
+  height: 190%;
+}
+
+.buttonsend:hover {
+  color: white;
+}
