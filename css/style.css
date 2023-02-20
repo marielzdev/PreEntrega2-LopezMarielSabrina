@@ -6,6 +6,11 @@ body {
 svg {
   vertical-align: middle;
 }
+/* esto adjusta la imagen de elidiomaturco*/
+.img-box {
+  text-align: center;
+  width: 40%;
+}
 
 /* esto se ve en el html de .... */
 .listado {
