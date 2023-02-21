@@ -1,6 +1,6 @@
 /*evito que la nav pise el contenido de la primer seccion*/
 body {
-  padding-top: 20rem;
+  padding-top: 15rem;
 }
 /* esto es del efecto olitas */
 svg {
@@ -10,13 +10,6 @@ svg {
 .img-box {
   text-align: center;
   width: 40%;
-}
-
-/* esto se ve en el html de .... */
-.listado {
-  margin: 1rem;
-  width: 80%;
-  max-width: 1320px;
 }
 /* son las lineas de colores del footer*/
 .footerbackgroundcolor {
